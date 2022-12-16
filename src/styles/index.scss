@@ -1,0 +1,30 @@
+@import "./_reset";
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Unbounded", cursive !important;
+  width: 100%;
+}
+
+input,
+select {
+  font-family: "Unbounded", cursive !important;
+}
+
+body {
+  scroll-behavior: smooth;
+  color: #333;
+  margin: 0 auto;
+  font-family: "Unbounded", cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 512px;
+  overflow-x: hidden;
+  height: 100vh;
+}
